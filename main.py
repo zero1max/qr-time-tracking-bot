@@ -13,8 +13,8 @@ from aiogram.filters import Command
 from PIL import Image
 from pyzbar.pyzbar import decode
 
-API_TOKEN = "7308999005:AAG_zERBnhOapB_lPsU1vX8xj6YDDh5nnXg"
-ADMIN_IDS = [5471452269]  # faqat adminlar QR yaratishi mumkin
+API_TOKEN = "Your_Bot_Token"
+ADMIN_IDS = ["Admin_ID"]  # faqat adminlar QR yaratishi mumkin
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
